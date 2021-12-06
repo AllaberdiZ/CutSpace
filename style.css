@@ -54,6 +54,11 @@ a {
   font-size: 16px;
   padding: 0 10px;
   font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #f78434;
 }
 
 .navbar .home {
