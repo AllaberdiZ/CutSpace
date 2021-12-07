@@ -16,12 +16,12 @@ a {
 }
 
 .navbar-container {
-  padding: 0 80px;
+  width: 85%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 1440px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .navbar-container span {
@@ -64,5 +64,32 @@ a {
 .navbar .home {
   font-family: "Poppins", sans-serif;
   color: #f78434;
+  font-weight: 700;
+}
+
+.main {
+  width: 80%;
+  margin: auto;
+  overflow: auto;
+  display: grid;
+}
+.main-text {
+  position: relative;
+  width: 674px;
+  display: inline-block;
+  left: 10%;
+  grid-row: 1/2;
+}
+
+.main-img {
+  float: right;
+  position: relative;
+  right: 10%;
+  top: 0;
+}
+
+.main h1 {
+  font-size: 54px;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
