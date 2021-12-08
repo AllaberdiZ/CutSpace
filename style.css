@@ -70,26 +70,64 @@ a {
 .main {
   width: 80%;
   margin: auto;
-  overflow: auto;
-  display: grid;
+  height: 676px;
+  display: flex;
 }
 .main-text {
-  position: relative;
+  position: absolute;
   width: 674px;
   display: inline-block;
-  left: 10%;
-  grid-row: 1/2;
+  align-self: center;
 }
 
 .main-img {
-  float: right;
-  position: relative;
+  position: absolute;
+  z-index: -1;
   right: 10%;
-  top: 0;
+}
+
+.main-img img {
+  border-radius: 40px 40px 40px 0;
 }
 
 .main h1 {
   font-size: 54px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
+}
+
+.main p {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  padding: 25px 0;
+  width: 467px;
+}
+
+input[type="email"] {
+  background: #dfdfdf;
+  width: 299px;
+  background: #fff;
+  height: 50px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  padding: 0 10px;
+  border-radius: 29px 0 0 29;
+  border: none;
+  outline: none;
+}
+
+input[type="submit"] {
+  position: relative;
+  border-radius: 0 29px 29px 0;
+  height: 50px;
+  width: 160px;
+  border: none;
+  outline: none;
+  left: -5px;
+  background: #f78434;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
 }
