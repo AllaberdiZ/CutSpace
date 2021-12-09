@@ -131,3 +131,16 @@ input[type="submit"] {
   font-family: "Poppins", sans-serif;
   color: #fff;
 }
+
+.logos {
+  width: 80%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.logos img {
+  height: 35px;
+  position: relative;
+  margin: 0 70px;
+  text-align: center;
+}
