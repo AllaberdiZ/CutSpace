@@ -130,12 +130,14 @@ input[type="submit"] {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   color: #fff;
+  cursor: pointer;
 }
 
 .logos {
   width: 80%;
   margin: auto;
-  padding: 50px 0;
+  padding: 70px 0;
+  position: relative;
 }
 
 .logos img {
@@ -143,4 +145,40 @@ input[type="submit"] {
   position: relative;
   margin: 0 70px;
   text-align: center;
+}
+
+.second {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+}
+
+.second-img img {
+  border-radius: 20px;
+}
+
+.second-img .f-img {
+  margin: 0 16px 0 -50px;
+}
+
+.second-img .s-img {
+  margin: 0 0 0 16px;
+}
+
+.second-text {
+  width: 374px;
+  margin-left: 150px;
+}
+
+.second-text h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 42px;
+}
+
+.second-text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: 400;
 }
