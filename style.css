@@ -72,6 +72,9 @@ a {
   margin: auto;
   height: 676px;
   display: flex;
+  align-items: center;
+  max-width: 1440px;
+  margin: auto;
 }
 .main-text {
   position: absolute;
@@ -138,6 +141,9 @@ input[type="submit"] {
   margin: auto;
   padding: 70px 0;
   position: relative;
+  align-items: center;
+  max-width: 1440px;
+  margin: auto;
 }
 
 .logos img {
@@ -152,6 +158,9 @@ input[type="submit"] {
   margin: auto;
   overflow: hidden;
   display: flex;
+  align-items: center;
+  max-width: 1440px;
+  margin: auto;
 }
 
 .second-img img {
