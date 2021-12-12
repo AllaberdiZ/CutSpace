@@ -72,9 +72,6 @@ a {
   margin: auto;
   height: 676px;
   display: flex;
-  align-items: center;
-  max-width: 1440px;
-  margin: auto;
 }
 .main-text {
   position: absolute;
@@ -141,9 +138,6 @@ input[type="submit"] {
   margin: auto;
   padding: 70px 0;
   position: relative;
-  align-items: center;
-  max-width: 1440px;
-  margin: auto;
 }
 
 .logos img {
@@ -158,9 +152,6 @@ input[type="submit"] {
   margin: auto;
   overflow: hidden;
   display: flex;
-  align-items: center;
-  max-width: 1440px;
-  margin: auto;
 }
 
 .second-img img {
@@ -175,9 +166,18 @@ input[type="submit"] {
   margin: 0 0 0 16px;
 }
 
+.second-container {
+  position: relative;
+}
+
 .second-text {
   width: 374px;
-  margin-left: 150px;
+
+  margin: 0 0 0 150px;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .second-text h2 {
@@ -190,4 +190,16 @@ input[type="submit"] {
   font-size: 16px;
   margin-top: 20px;
   font-weight: 400;
+}
+
+.second-text button {
+  padding: 17px 39px;
+  border: none;
+  border-radius: 29px;
+  cursor: pointer;
+  background-color: #f78434;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 40px;
 }
