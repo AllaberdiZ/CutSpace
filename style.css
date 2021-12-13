@@ -72,6 +72,8 @@ a {
   margin: auto;
   height: 676px;
   display: flex;
+  align-items: center;
+  max-width: 1440px;
 }
 .main-text {
   position: absolute;
@@ -134,6 +136,8 @@ input[type="submit"] {
 }
 
 .logos {
+  align-items: center;
+  max-width: 1440px;
   width: 80%;
   margin: auto;
   padding: 70px 0;
@@ -152,6 +156,8 @@ input[type="submit"] {
   margin: auto;
   overflow: hidden;
   display: flex;
+  align-items: center;
+  max-width: 1440px;
 }
 
 .second-img img {
@@ -172,7 +178,6 @@ input[type="submit"] {
 
 .second-text {
   width: 374px;
-
   margin: 0 0 0 150px;
   position: absolute;
   top: 50%;
@@ -202,4 +207,74 @@ input[type="submit"] {
   color: #fff;
   font-size: 16px;
   margin-top: 40px;
+}
+
+.product {
+  width: 80%;
+  align-items: center;
+  max-width: 1440px;
+  display: flex;
+  background-color: #58bebf;
+  border-radius: 20px 20px 20px 0;
+  margin: 145px auto;
+}
+
+.product-img img {
+  position: relative;
+}
+
+.product-img {
+  margin-top: 60px;
+
+  border-radius: 0 20px 0 0;
+  background-color: #fff;
+  padding: 25px 25px 0 0;
+}
+
+.product-text {
+  width: 364px;
+  margin-left: 100px;
+  align-items: center;
+  top: 50%;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  display: inline-block;
+}
+
+.product-text h2 {
+  font-size: 42px;
+}
+
+.product-text p {
+  padding: 15px 0 30px 0;
+  font-weight: 300;
+  width: 320px;
+}
+
+.product button {
+  font-family: "Poppins", sans-serif;
+  padding: 16px 40px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+}
+
+.product-text .first {
+  background-color: #f78434;
+  color: #fff;
+  margin-right: 8px;
+}
+
+.product-text .scnd {
+  color: #000;
+  margin-left: 8px;
+}
+
+.product .circle {
+  height: 300px;
+  width: 300px;
+  background-color: #bbb;
+  border-radius: 50%;
+  position: absolute;
 }
