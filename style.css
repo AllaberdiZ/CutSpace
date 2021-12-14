@@ -210,6 +210,8 @@ input[type="submit"] {
 }
 
 .product {
+  overflow: hidden;
+  position: relative;
   width: 80%;
   align-items: center;
   max-width: 1440px;
@@ -258,6 +260,7 @@ input[type="submit"] {
   font-size: 16px;
   font-weight: 400;
   border: none;
+  cursor: pointer;
 }
 
 .product-text .first {
@@ -272,9 +275,24 @@ input[type="submit"] {
 }
 
 .product .circle {
-  height: 300px;
-  width: 300px;
-  background-color: #bbb;
+  height: 270px;
+  width: 270px;
+  opacity: 0.3;
+  background-color: #fff;
   border-radius: 50%;
   position: absolute;
+  right: -70px;
+  top: -70px;
+}
+.product .circle1 {
+  height: 170px;
+  width: 170px;
+  opacity: 0.2;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: -30px;
+  top: -30px;
+  background-image: linear-gradient(180deg, transparent 50%, #fff 50%),
+    linear-gradient(90deg, transparent 50%, #fff 50%);
 }
