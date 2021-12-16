@@ -350,6 +350,7 @@ input[type="submit"] {
   background-color: #fff;
   border: none;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 .container1 {
