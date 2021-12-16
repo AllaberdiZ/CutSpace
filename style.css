@@ -76,6 +76,7 @@ a {
   align-items: center;
   max-width: 1440px;
   overflow: hidden;
+  color: #323232;
 }
 .main-text {
   position: absolute;
@@ -179,6 +180,7 @@ input[type="submit"] {
 }
 
 .second-text {
+  color: #323232;
   width: 374px;
   margin: 0 0 0 150px;
   position: absolute;
@@ -272,7 +274,7 @@ input[type="submit"] {
 }
 
 .product-text .scnd {
-  color: #000;
+  color: #323232;
   margin-left: 8px;
 }
 
@@ -317,6 +319,7 @@ input[type="submit"] {
   text-align: center;
   width: 80%;
   margin: auto;
+  color: #323232;
 }
 
 .we-serve h1 {
@@ -351,7 +354,6 @@ input[type="submit"] {
 
 .container1 {
   display: inline-block;
-
   background-color: #f78434;
   border-radius: 10px;
   padding: 40px 80px;
@@ -364,6 +366,6 @@ input[type="submit"] {
   background-color: rgb(248, 248, 248);
   border-radius: 10px;
   padding: 40px 80px;
-  color: #000;
+  color: #323232;
   margin-left: 15px;
 }
