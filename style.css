@@ -6,8 +6,9 @@
   padding: 0;
 }
 
-a {
+body {
   color: #323232;
+  font-family: "Poppins", sans-serif;
 }
 .navbar {
   width: 100%;
@@ -58,7 +59,7 @@ a {
   transition: 0.3s;
 }
 
-.navbar a:hover {
+.navbar-nav-right a:hover {
   color: #f78434;
 }
 
@@ -315,7 +316,6 @@ input[type="submit"] {
 }
 
 .we-serve {
-  font-family: "Poppins", sans-serif;
   text-align: center;
   width: 80%;
   margin: auto;
@@ -369,4 +369,46 @@ input[type="submit"] {
   padding: 40px 80px;
   color: #323232;
   margin-left: 15px;
+}
+
+.choose-us {
+  width: 80%;
+  margin: auto;
+  max-width: 1440px;
+  text-align: center;
+}
+
+.choose-us h2 {
+  font-size: 42px;
+}
+
+.choose-us h3 {
+  font-size: 28px;
+  padding: 15px 0 5px 0;
+}
+
+.choose-us-containers {
+  display: flex;
+}
+
+.choose-us-containers .cc {
+  width: 260px;
+  margin: 60px auto;
+}
+
+.choose-us-containers i {
+  font-size: 40px;
+  background-color: rgb(88, 190, 191, 0.4);
+  color: #58bebf;
+  padding: 30px;
+  border-radius: 50%;
+}
+
+.choose-us-containers .orange i {
+  background-color: #f78434;
+  color: #fff;
+}
+
+.choose-us-containers .clipboard i {
+  padding: 30px 34px;
 }
