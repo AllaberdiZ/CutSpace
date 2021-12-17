@@ -412,3 +412,58 @@ input[type="submit"] {
 .choose-us-containers .clipboard i {
   padding: 30px 34px;
 }
+
+.thanks-words {
+  width: 80%;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.thanks-words h2 {
+  font-size: 42px;
+  width: 450px;
+}
+
+.thanks-header {
+  display: flex;
+  position: relative;
+}
+
+.thanks-right {
+  float: right;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 400px;
+  position: absolute;
+}
+
+.thanks-right p {
+  color: #606060;
+}
+
+.thanks-container {
+  display: flex;
+}
+
+.tt {
+  margin: 60px auto;
+}
+.tt p {
+  width: 295px;
+  margin: 30px 0 20px 0;
+}
+
+.tt h4 {
+  font-size: 18px;
+}
+
+.tt h5 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #58bebf;
+}
+
+.tt .org {
+  color: #f78434;
+}
