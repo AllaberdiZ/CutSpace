@@ -475,26 +475,24 @@ input[type="submit"] {
   display: flex;
   overflow: hidden;
   position: relative;
-  height: auto;
+  height: 550px;
 }
 
 .get-exbg {
   z-index: -1;
   overflow: hidden;
   position: absolute;
-  width: 100%;
-  height: 0;
   border-top: 120px solid transparent;
   border-right: 50px solid #58bebf;
-  border-bottom: 25px solid #58bebf;
+  border-bottom: 0 solid #58bebf;
   border-right-width: 1440px;
   border-bottom-width: 370px;
+  bottom: 0;
 }
 
 .get-extext {
   color: #fff;
-  top: 50%;
-  margin: auto 175px auto 165px;
+  margin: auto 175px 55px 165px;
   position: relative;
 }
 
@@ -525,4 +523,5 @@ input[type="submit"] {
 
 .get-exphoto img {
   position: relative;
+  bottom: -5px;
 }
