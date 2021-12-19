@@ -392,7 +392,7 @@ input[type="submit"] {
 
 .choose-us-containers .cc {
   width: 260px;
-  margin: 60px auto;
+  margin: 60px auto 110px auto;
 }
 
 .choose-us-containers i {
@@ -424,6 +424,7 @@ input[type="submit"] {
 }
 
 .thanks-header {
+  margin-top: 60px;
   display: flex;
   position: relative;
 }
