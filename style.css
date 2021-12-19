@@ -80,16 +80,15 @@ body {
   color: #323232;
 }
 .main-text {
-  position: absolute;
+  position: relative;
   width: 674px;
   display: inline-block;
   align-self: center;
 }
 
 .main-img {
-  position: absolute;
+  position: relative;
   z-index: -1;
-  right: 10%;
 }
 
 .main-img img {
@@ -519,9 +518,63 @@ input[type="submit"] {
   font-size: 16px;
   margin-top: 30px;
   cursor: pointer;
+  outline: none;
 }
 
 .get-exphoto img {
   position: relative;
   bottom: -5px;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 160px;
+}
+
+.footer-cutspace {
+  display: inline-block;
+  margin: 70px 0 100px 0;
+}
+
+.cutspace-header {
+  display: flex;
+}
+.cutspace-header img {
+  margin: auto 10px auto 0;
+  width: 30px;
+  height: 30px;
+}
+
+.footer-cutspace p {
+  width: 300px;
+  margin: 25px 0 40px 0;
+}
+
+.cutspace-smedia i {
+  margin-right: 30px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.footer-content {
+  margin: 90px 0 0 200px;
+  display: flex;
+}
+
+.footer-content .content {
+  margin-right: 85px;
+  white-space: nowrap;
+}
+
+.footer-content h3 {
+  font-size: 21px;
+  margin-bottom: 18px;
+}
+
+.footer-content p {
+  margin-bottom: 13px;
 }
